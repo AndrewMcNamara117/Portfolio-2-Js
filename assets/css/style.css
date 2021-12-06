@@ -13,6 +13,7 @@ header {
     padding: 20px;
 }
 
+
 header > h1 {
     color: #25272E;
     text-align: center;
@@ -67,6 +68,11 @@ header > h1 {
     height: auto;
 }
 
+img {
+    width: 150px;
+    height: auto;
+  }
+
 .choice {
     border: 4px solid white;
     border-radius: 50%;
@@ -78,7 +84,7 @@ header > h1 {
 
 .choice:hover {
     cursor: pointer;
-    background: rgb(170, 8, 8);
+    background:#3b3f4e;
 }
 
 #action-message {
@@ -87,6 +93,21 @@ header > h1 {
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+.green-glow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border: 4 px solid #fd030c;
+    box-shadow: 0 0 10px #ff161a;
+}
+
+.grey-glow{
+    border: 4 px solid #464647;
+    box-shadow: 0 0 10px #25292b;
 }
 
 
