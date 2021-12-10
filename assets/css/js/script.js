@@ -78,7 +78,7 @@ function game(userChoice) {
 
 function main(){
 rock_div.addEventListener('click', function() {
-    Game('r');
+    game('r');
 })
 
 paper_div.addEventListener('click', function() {
